@@ -1,0 +1,27 @@
+.background-radial-gradient {
+    height: 100vh;
+    background-color: hsl(208, 42%, 15%);
+    background-image: radial-gradient(
+        650px circle at 0% 0%,
+        hsl(179, 41%, 35%) 15%,
+        hsl(89, 20%, 32%) 35%,
+        hsl(149, 41%, 20%) 75%,
+        hsla(0, 36%, 47%, 0.375) 80%,
+        transparent 100%
+      ),
+      radial-gradient(
+        1250px circle at 100% 100%,
+        hsl(149, 26%, 36%) 15%,
+        hsl(179, 41%, 30%) 35%,
+        hsl(218, 33%, 45%) 75%,
+        hsl(206, 40%, 19%) 80%,
+        transparent 100%
+      );
+  }
+  
+  
+  
+  .bg-glass {
+    background-color: hsla(150, 35%, 93%, 0.9) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+  }
